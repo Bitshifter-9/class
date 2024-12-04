@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    border-bottom: 2px solid #333;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #00bcd4;
+}
+
+.image-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.profile-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #00bcd4;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #00bcd4;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 50px 0;
+    background-color: #1f1f1f;
+}
+
+.projects-section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #00bcd4;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    background-color: #333333;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #bbbbbb;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #333;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #bbbbbb;
+}
